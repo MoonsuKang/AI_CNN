@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="버튼 1"
+        android:background="#00ff00"
+        android:layout_margin="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이것은 텍스트뷰입니다."
+        android:layout_margin="15dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이것은 에디트텍스트입니다"
+        android:layout_margin="15dp"
+        android:background="#0011ff" />
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="버튼 2"
+        android:background="#30808080"
+        android:layout_margin="15dp"/>
+
+</LinearLayout>
