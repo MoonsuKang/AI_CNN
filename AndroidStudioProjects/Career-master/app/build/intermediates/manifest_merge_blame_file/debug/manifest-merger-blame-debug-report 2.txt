@@ -1,0 +1,198 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.jobhunt"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] /Users/kang/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.jobhunt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] /Users/kang/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] /Users/kang/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.jobhunt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] /Users/kang/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] /Users/kang/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+18    <uses-permission android:name="android.permission.REORDER_TASKS" />
+18-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:24:5-72
+18-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:24:22-69
+19
+20    <application
+20-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:7:5-48:19
+21        android:allowBackup="true"
+21-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] /Users/kang/.gradle/caches/transforms-3/a4522fe6b275a4534bfc0eadc1a8e0f8/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:9:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:10:9-54
+27        android:icon="@mipmap/career_5"
+27-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:11:9-40
+28        android:label="@string/app_name"
+28-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:12:9-41
+29        android:supportsRtl="true"
+29-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:13:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.JOBHUNT"
+31-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:14:9-45
+32        android:usesCleartextTraffic="true" >
+32-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:15:9-44
+33        <activity
+33-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:17:9-19:40
+34            android:name="com.example.jobhunt.Activity.BoardDetailActivity"
+34-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:18:13-57
+35            android:exported="false" />
+35-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:19:13-37
+36        <activity
+36-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:20:9-22:40
+37            android:name="com.example.jobhunt.Activity.AddBoardActivity"
+37-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:21:13-54
+38            android:exported="false" />
+38-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:22:13-37
+39        <activity
+39-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:23:9-25:40
+40            android:name="com.example.jobhunt.Activity.BoardHomeActivity"
+40-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:24:13-55
+41            android:exported="false" />
+41-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:25:13-37
+42        <activity
+42-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:26:9-28:40
+43            android:name="com.example.jobhunt.Activity.DetailcodenaryActivity"
+43-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:27:13-60
+44            android:exported="false" />
+44-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:28:13-37
+45        <activity
+45-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:29:9-31:40
+46            android:name="com.example.jobhunt.Activity.RegisterActivity"
+46-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:30:13-54
+47            android:exported="false" />
+47-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:31:13-37
+48        <activity
+48-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:32:9-34:40
+49            android:name="com.example.jobhunt.Activity.TestJsonActivity"
+49-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:33:13-54
+50            android:exported="false" />
+50-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:34:13-37
+51        <activity
+51-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:35:9-37:40
+52            android:name="com.example.jobhunt.Activity.HomeActivity"
+52-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:36:13-50
+53            android:exported="false" />
+53-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:37:13-37
+54        <activity
+54-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:38:9-47:20
+55            android:name="com.example.jobhunt.Activity.MainActivity"
+55-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:39:13-50
+56            android:exported="true"
+56-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:40:13-36
+57            android:theme="@style/AppTheme.Starting" >
+57-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:41:13-53
+58            <intent-filter>
+58-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:42:13-46:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:43:17-69
+59-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:43:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:45:17-77
+61-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:45:27-74
+62            </intent-filter>
+63        </activity>
+64
+65        <uses-library
+65-->[androidx.window:window:1.0.0] /Users/kang/.gradle/caches/transforms-3/c3b734b042e3e1a43ac97bcab800c2b5/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+66            android:name="androidx.window.extensions"
+66-->[androidx.window:window:1.0.0] /Users/kang/.gradle/caches/transforms-3/c3b734b042e3e1a43ac97bcab800c2b5/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+67            android:required="false" />
+67-->[androidx.window:window:1.0.0] /Users/kang/.gradle/caches/transforms-3/c3b734b042e3e1a43ac97bcab800c2b5/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+68        <uses-library
+68-->[androidx.window:window:1.0.0] /Users/kang/.gradle/caches/transforms-3/c3b734b042e3e1a43ac97bcab800c2b5/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+69            android:name="androidx.window.sidecar"
+69-->[androidx.window:window:1.0.0] /Users/kang/.gradle/caches/transforms-3/c3b734b042e3e1a43ac97bcab800c2b5/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+70            android:required="false" />
+70-->[androidx.window:window:1.0.0] /Users/kang/.gradle/caches/transforms-3/c3b734b042e3e1a43ac97bcab800c2b5/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/kang/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/kang/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+74            android:authorities="com.example.jobhunt.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/kang/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/kang/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.2.0] /Users/kang/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.2.0] /Users/kang/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.2.0] /Users/kang/.gradle/caches/transforms-3/c41b4469453a8a9f9613e5cbc1cd1923/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kang/.gradle/caches/transforms-3/528f10946969151ddeecc9c08cbfcbae/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kang/.gradle/caches/transforms-3/528f10946969151ddeecc9c08cbfcbae/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kang/.gradle/caches/transforms-3/528f10946969151ddeecc9c08cbfcbae/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+82        </provider>
+83
+84        <activity
+84-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:27:9-34:20
+85            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+85-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:28:13-99
+86            android:exported="true"
+86-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:29:13-36
+87            android:theme="@android:style/Theme" >
+87-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:30:13-49
+88            <intent-filter>
+88-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:43:17-69
+89-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:43:25-66
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:35:9-42:20
+93            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+93-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:36:13-95
+94            android:exported="true"
+94-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:37:13-36
+95            android:theme="@android:style/Theme" >
+95-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:38:13-49
+96            <intent-filter>
+96-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:43:17-69
+97-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:43:25-66
+98            </intent-filter>
+99        </activity>
+100        <activity
+100-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:43:9-50:20
+101            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+101-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:44:13-103
+102            android:exported="true"
+102-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:45:13-36
+103            android:theme="@android:style/Theme.Dialog" >
+103-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:46:13-56
+104            <intent-filter>
+104-->[androidx.test:core:1.4.0] /Users/kang/.gradle/caches/transforms-3/444b00701af0ab1633e8fc10deab94f4/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
+105                <action android:name="android.intent.action.MAIN" />
+105-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:43:17-69
+105-->/Users/kang/AndroidStudioProjects/Career-master/app/src/main/AndroidManifest.xml:43:25-66
+106            </intent-filter>
+107        </activity>
+108    </application>
+109
+110</manifest>
